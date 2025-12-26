@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net7.0;net8.0</TargetFrameworks>
+    <Version>1.0.0</Version>
+    <Authors>MicroJPEG</Authors>
+    <Description>Official .NET client for the MicroJPEG API. Support for compression, conversion, AI background removal, and image enhancement.</Description>
+    <PackageId>MicroJpeg</PackageId>
+    <PackageProjectUrl>https://github.com/applelectricals/microjpeg-dotnet</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/applelectricals/microjpeg-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>microjpeg;image;compression;optimization;ai;background-removal;upscale;enhance;jpeg;png;webp;avif</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
